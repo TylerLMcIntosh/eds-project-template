@@ -4,7 +4,7 @@
 
 Explain here
 
-**Note that key tools used for this project include: **
+**Note that key tools used for this project include: R & Python**
 
 ## Contributors
 
