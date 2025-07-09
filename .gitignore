@@ -55,12 +55,24 @@ data/*
 results/*
 !figs/dir_description.md
 !results/dir_description.md
+config/secrets/*
+
+# Ignore all contents of data/, recursively
+data/*
+
+# Except for these directories (so we can un-ignore files inside them)
 !data/dir_description.md
+!data/raw/
+!data/derived/
+
+# Re-ignore everything inside them
+data/raw/*
+data/derived/*
+
+# But allow only dir_description.md
 !data/raw/dir_description.md
 !data/derived/dir_description.md
 
-
-config/secrets/*
 
 # RENV
 renv/library/
