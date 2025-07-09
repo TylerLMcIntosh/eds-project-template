@@ -49,9 +49,16 @@ po/*~
 rsconnect/
 
 # User-created directories and files to ignore
-data/*
 .DS_Store
 figs/*
+data/*
+results/*
+!figs/dir_description.md
+!results/dir_description.md
+!data/dir_description.md
+!data/raw/dir_description.md
+!data/derived/dir_description.md
+
 
 config/secrets/*
 
