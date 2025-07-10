@@ -39,6 +39,10 @@ my-project/
 conda env create -f config/environment.yaml
 conda activate myenv
 ```
+Or, to update an environment of the same name:
+```
+conda env update --name macrosystems --file config/environment.yml
+```
 
 
 
